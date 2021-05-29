@@ -1,0 +1,25 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.searchBar input {
+  width: max(40%, 300px);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: none;
+  background-color: rgba(240, 248, 255, 0.9);
+  color: rgba(29, 29, 29, 0.7);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.searchBar input:focus {
+  background-color: aliceblue;
+  color: rgb(29, 29, 29);
+}
